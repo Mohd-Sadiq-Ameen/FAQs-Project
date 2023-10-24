@@ -1,0 +1,70 @@
+/* body{
+    background-color: rgb(215, 238, 255);
+    padding: 40px;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.7rem;
+}
+
+.accordian{
+    background-color: white;
+    padding: 5px 16px;
+    margin-bottom: 16px; ;
+    border-radius: 6px ;
+    box-shadow: 1px 1px 5px rgb(125, 166, 226);
+    cursor: pointer;
+} */
+
+/* Style for the FAQs section */
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    line-height: 1.9rem;
+}
+
+/* Style for the accordion */
+.accordion {
+    background-color: #f9f9f9;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Style for the panel that shows the answer */
+.panel {
+    padding: 2px 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 20px;
+}
+.icon2{
+    display: none;
+    margin-right: 19px;
+    
+}
+
+
+
+
+.answer{
+    color: rgb(102, 100, 101);
+    display: none;
+    margin : 0px 36px
+}
