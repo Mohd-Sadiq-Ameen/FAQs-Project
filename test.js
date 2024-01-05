@@ -9,8 +9,11 @@ accordians.forEach(accordian => {
     const downArrow = accordian.querySelector('.icon')
     const upArrow = accordian.querySelector('.icon2')
 
+    // added code
+    answer.style.display = 'none';
+
     question.addEventListener('click', () => {
-        answer.classList.toggle('active')
+        // answer.classList.toggle('active') // not required
 
         if (answer.style.display == 'none') {
             answer.style.display = 'block'
